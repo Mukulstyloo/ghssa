@@ -1,13 +1,104 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+  background: url(pic.jpg) no-repeat center center fixed;
+  background-size:cover;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.mainnav{
+  display:flex;
+  list-style: none;
+  font-size: 30px;
+  margin:0;
+
+
+}
+
+.nav{
+  background-color:rgba(0,0,0,0);
+  top:0;
+  width:100%;
+  }
+
+@media only screen and (max-width:600px)
+{
+  .mainnav{
+    display:flex;
+    flex-wrap: wrap;
+    list-style: none;
+    font-size:15px;
+    margin:0;
+  }
+}
+
+a{
+  color:yellow;
+  text-decoration: none;
+}
+
+li{
+  padding:50px;
+
+
+}
+
+.set{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  height:75vh;
+}
+
+.container{
+  background-color:rgba(0,0,0,0.9);
+  display:grid;
+  grid-gap: 100px;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fill,minmax(300px,300px));
+
+}
+
+
+
+.Cards{
+  background-color:rgba(255,255,255,0.3);
+  transition:all 1s;
+  /*box-shadow: 4px 4px 4px 4px #888888;*/
+  text-align:center;
+  font-size: 100%;
+}
+
+img{
+
+  width: 300px;;
+  height: 400px;
+}
+
+.Cards:hover{
+  transform:scale(1.1);
+}
+
+button{
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 150%;
+  margin: 30px;
+  cursor:pointer;
+
+}
+
+button:hover{
+  background-color:rgba(255,255,0,0.9);
+}
+
+.h1{
+  color:white;
+  text-align: center;
+}
+
+.sexy{
+  display: flex;
+  justify-content: center;
+  color:yellow;
+  background-color: rgba(0,0,0,0.9);
+  padding:20px;
+
 }
