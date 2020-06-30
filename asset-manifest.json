@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/ghssa/static/css/main.9789373e.chunk.css",
+    "main.js": "/ghssa/static/js/main.6d8ea8c4.chunk.js",
+    "main.js.map": "/ghssa/static/js/main.6d8ea8c4.chunk.js.map",
+    "runtime-main.js": "/ghssa/static/js/runtime-main.692c8e03.js",
+    "runtime-main.js.map": "/ghssa/static/js/runtime-main.692c8e03.js.map",
+    "static/js/2.54865750.chunk.js": "/ghssa/static/js/2.54865750.chunk.js",
+    "static/js/2.54865750.chunk.js.map": "/ghssa/static/js/2.54865750.chunk.js.map",
+    "index.html": "/ghssa/index.html",
+    "precache-manifest.19c18af4c8f30578d44267c61b7886e9.js": "/ghssa/precache-manifest.19c18af4c8f30578d44267c61b7886e9.js",
+    "service-worker.js": "/ghssa/service-worker.js",
+    "static/css/main.9789373e.chunk.css.map": "/ghssa/static/css/main.9789373e.chunk.css.map",
+    "static/js/2.54865750.chunk.js.LICENSE.txt": "/ghssa/static/js/2.54865750.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/ghssa/static/media/pic.2c258c59.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.692c8e03.js",
+    "static/js/2.54865750.chunk.js",
+    "static/css/main.9789373e.chunk.css",
+    "static/js/main.6d8ea8c4.chunk.js"
+  ]
+}
